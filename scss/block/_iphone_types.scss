@@ -1,0 +1,22 @@
+.iphone_types {
+    padding: 16px 0;
+}
+
+.iphone_types_title {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--1);
+    margin-bottom: 8px;
+}
+
+.iphone_types_text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--07);
+}
+
+@media screen and (min-width:768px) {
+    .iphone_types{
+        padding: 32px 0;
+    }
+}

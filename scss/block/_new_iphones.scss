@@ -1,0 +1,15 @@
+.news{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 24px;
+color: var(--prime);
+}
+.news_block{
+    margin-bottom: 16px;    
+}
+
+@media screen and (min-width:1200px) {
+    .news_block{
+        margin-bottom: 24px;    
+    }
+}

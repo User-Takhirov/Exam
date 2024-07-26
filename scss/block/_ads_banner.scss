@@ -1,0 +1,121 @@
+.ads_banner_block {
+    padding: 24px 29px 24px 106px;
+    background-color: #000;
+    overflow: hidden;
+    position: relative;
+}
+
+.ads_banner_title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.ads_banner_text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.ads_banner_btn {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    background: var(--prime);
+    border-radius: 8px;
+    border: none;
+    padding: 10px 40px;
+}
+
+.ads_banner_block::before {
+    content: "";
+    background-image: url(../img/ads_banner_img.svg);
+    width: 65px;
+    height: 163px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+@media screen and (min-width:768px) {
+    .ads_banner_block::before {
+        width: 110px;
+        height: 276px;
+        left: 40px;
+        top: -17px;
+    }
+
+    .ads_banner_flex {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ads_banner_block {
+        padding: 40px 0;
+    }
+
+    .ads_banner_title {
+        font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    .ads_banner_text {
+
+        font-weight: 500;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 16px;
+    }
+
+    .ads_banner_btn {
+        padding: 19px 40px;
+        font-weight: 500;
+        font-size: 16px;
+        width: 160px;
+        height: 56px;
+
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .ads_banner_block::before {
+        width: 246px;
+        height: 619px;
+        left: 120px;
+        top: -17px;
+    }
+
+    .ads_banner_flex {
+        padding: 0 0 0 222px;
+    }
+
+    .ads_banner_block {
+        padding: 84px 0;
+    }
+
+    .ads_banner_title {
+        font-weight: 700;
+        font-size: 56px;
+        margin-bottom: 16px;
+    }
+
+    .ads_banner_text {
+        font-weight: 500;
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    .ads_banner_btn {
+        padding: 19px 40px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+}
