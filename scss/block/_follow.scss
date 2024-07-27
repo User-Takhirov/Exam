@@ -1,0 +1,181 @@
+.follow {
+    background: var(--light-grey);
+}
+
+.follow_block {
+    padding: 24px 16px;
+}
+
+.follow_title {
+    margin-bottom: 8px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--1);
+}
+
+.follow_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--07);
+    margin-bottom: 8px;
+}
+
+.follow_btn {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(96deg, #f7355d 0%, #9747ff 100%);
+    border-radius: 8px;
+    padding: 8px 70px 8px 16px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.follow_span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    display: block;
+}
+
+.follow_input {
+    padding: 17px 170px 13px 24px;
+    width: 100%;
+    border: 1px solid var(--10);
+    border-radius: 8px;
+    margin-bottom: 8px;
+
+    &::placeholder {
+        font-weight: 400;
+        font-size: 24px;
+        color: var(--05);
+        align-items: center;
+    }
+}
+.follow_btn_subscribe {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--07);
+    background: var(--01);
+    border-radius: 8px;
+    width: 100%;
+    padding: 18px 97px;
+    border: none;
+}
+
+
+@media screen and (min-width:768px) {
+    .follow_img_block::before {
+        content: "";
+        background-image: url(../../img/follow_img.png);
+        width: 224px;
+        height: 173px;
+        display: inline-block;
+        background-repeat: no-repeat;
+    }
+
+    .follow_block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .follow_title {
+        font-weight: 700;
+        font-size: 32px;
+        color: var(--1);
+        margin-bottom: 8px;
+    }
+
+    .follow_text {
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--07);
+        margin-bottom: 16px;
+    }
+
+    .follow_btn {
+        border-radius: 16px;
+        width: 279px;
+        height: 63px;
+        margin-bottom: 16px;
+    }
+
+    .follow_span {
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .follow_form {
+        display: flex;
+        align-items: center;
+        gap: 8px
+    }
+
+    .follow_btn_subscribe {
+        border-radius: 8px;
+        width: 160px;
+        height: 56px;
+        padding: 18px 33px;
+    }
+
+    .follow_input {
+        width: 246px;
+        height: 56px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .follow_btn {
+        display: none;
+    }
+
+    .follow_btn_desktop {
+        padding: 16px 32px 32px 32px;
+        background: linear-gradient(96deg, #f7355d 0%, #9747ff 100%);
+        font-weight: 700;
+        font-size: 40px;
+        color: #fff;
+        padding-bottom: 4px;
+        border-radius: 8px;
+    }
+
+    .follow_span {
+        font-weight: 500;
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 16px;
+    }
+
+    .follow_form {
+        padding-bottom: 32px;
+    }
+
+    .follow_title {
+        width: 421px;
+        font-weight: 700;
+        font-size: 48px;
+        color: var(--1);
+        margin-bottom: 8px;
+    }
+
+    .follow_text {
+        font-weight: 400;
+        font-size: 24px;
+        color: var(--07);
+        margin-bottom: 25px;
+        width: 454px;
+    }
+
+    .follow_img_block::before {
+        background-image: url(../img/follow_img_desktop.png);
+        width: 484px;
+        height: 371px;
+    }
+}

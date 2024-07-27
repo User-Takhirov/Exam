@@ -1,0 +1,172 @@
+.footer {
+    padding-top: 16px;
+}
+
+.footer_img {
+    width: 26px;
+    height: 30px;
+}
+
+.first_block_text {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--05);
+    margin-bottom: 4px;
+}
+
+.first_block_sec_text {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--05);
+    margin-bottom: 4px;
+}
+
+.footer_logo_block {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_logo_text {
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    color: var(--03);
+    padding: 0 60px;
+}
+
+.footer_first_block {
+    margin-bottom: 24px;
+}
+
+.footer_item {
+    margin-bottom: 8px;
+}
+
+.footer_link {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--1);
+}
+
+.footer_list {
+    margin-bottom: 24px;
+}
+
+.footer_apple_link {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--1);
+}
+
+.footer_apple_item {
+    margin-bottom: 8px;
+}
+
+.footer_apple_list {
+    margin-bottom: 16px;
+}
+
+.footer_phone_num {
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--1);
+    margin-bottom: 4px;
+}
+
+.footer_call_tablet {
+    display: none;
+}
+
+.footer_call {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--prime);
+}
+
+.footer_consulting {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--06);
+    margin-bottom: 4px;
+}
+
+.footer_call {
+    margin-bottom: 16px;
+}
+
+.footer_media_list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.footer_location {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--1);
+    display: block;
+
+    &:nth-child(1) {
+        margin-bottom: 8px;
+    }
+}
+
+.footer_location_block {
+    margin-bottom: 24px;
+}
+
+.footer_cotegory {
+    box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+    padding: 4px 0;
+}
+
+.footer_cotegory_span {
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--09);
+}
+
+.footer_svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer_cotegory_list {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_cotegory_link {
+    color: var(--09);
+
+}
+
+.footer_cotegory_span {
+    &:hover {
+        color: #52d116;
+    }
+}
+
+.footer_cotegory_link:hover {
+    color: var(--prime);
+
+    span {
+        color: var(--prime);
+    }
+}
+
+.footer_cotegory_span {
+    color: var(--06);
+}
+
+.footer_gray:hover {
+    color: #52d116;
+
+    span {
+        color: #52d116;
+    }
+}

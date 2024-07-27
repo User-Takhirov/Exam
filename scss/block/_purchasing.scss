@@ -127,6 +127,10 @@
     &:hover {
         background-color: #52d116;
     }
+    &:hover::after{
+        background-image: url(../../img/tick_store.svg);
+        background-repeat: no-repeat;
+    }
 }
 
 .purchasing_inner_btn::after {
@@ -217,6 +221,7 @@
 @media screen and (min-width:1200px) {
     .purchasing_inner_btn {
         width: 100%;
+     
     }
 
     .previous_price {
