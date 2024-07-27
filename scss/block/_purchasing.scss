@@ -181,6 +181,7 @@
 }
 .purchasing_inner_btn_desktop{
     display: none;
+    cursor: pointer;
 }
 .previous_price{
     display: flex;
@@ -203,6 +204,7 @@
         width: 140px;
         white-space: nowrap;
         margin-bottom: 0;
+        cursor: pointer;
     }
 
     .purchasing_list {

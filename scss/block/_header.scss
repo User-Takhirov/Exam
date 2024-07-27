@@ -25,6 +25,14 @@
     font-size: 16px;
     color: var(--prime);
 }
+.header_span{
+    color: gray;
+    display: flex;
+    align-items: center;
+    &:hover{
+        color: var(--prime);
+    }
+}
 
 
 .header_select {
@@ -165,7 +173,7 @@
     height: 24px;
     position: absolute;
     left: 1%;
-    top: 46%;
+    top: 50%;
     transform: translate(50%, -50%);
 }
 
@@ -239,21 +247,23 @@
 .header_last_item {
     display: flex;
     align-items: center;
+}
+.header_last_text{
+    display: flex;
+    align-items: center;
     gap: 8px;
-
-    &:hover {
-        color: var(--prime);
+}
+.header_last_text:hover{
+    color: var(--prime);
+    span {
+        color: var(--prime); 
     }
 }
 
 
-.header_last_text:hover {
-    color: var(--prime);
-}
-
 .header_last_list {
     display: flex;
-    gap: 16px;
+    gap: 20px;
 }
 
 .header_last_btn {

@@ -104,6 +104,19 @@ body {
   color: var(--prime);
 }
 
+.header_span {
+  color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header_span:hover {
+  color: var(--prime);
+}
+
 .header_select {
   border: none;
   background-color: transparent;
@@ -264,7 +277,7 @@ body {
   height: 24px;
   position: absolute;
   left: 1%;
-  top: 46%;
+  top: 50%;
   -webkit-transform: translate(50%, -50%);
           transform: translate(50%, -50%);
 }
@@ -353,13 +366,22 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 8px;
 }
-.header_last_item:hover {
-  color: var(--prime);
+
+.header_last_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
 }
 
 .header_last_text:hover {
+  color: var(--prime);
+}
+.header_last_text:hover span {
   color: var(--prime);
 }
 
@@ -367,7 +389,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 16px;
+  gap: 20px;
 }
 
 .header_last_btn {
@@ -1009,6 +1031,7 @@ body {
 
 .purchasing_inner_btn_desktop {
   display: none;
+  cursor: pointer;
 }
 
 .previous_price {
@@ -1039,6 +1062,7 @@ body {
     width: 140px;
     white-space: nowrap;
     margin-bottom: 0;
+    cursor: pointer;
   }
   .purchasing_list {
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
