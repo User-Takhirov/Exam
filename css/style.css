@@ -1698,6 +1698,7 @@ body {
     width: 246px;
     height: 56px;
     margin-bottom: 0;
+    padding-right: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1924,4 +1925,194 @@ body {
 }
 .footer_gray:hover span {
   color: #52d116;
+}
+
+.footer_first_tablet {
+  display: none;
+}
+
+.consulting_desktop {
+  display: none;
+}
+
+.media_desktop_list {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .footer_logo_text {
+    display: none;
+  }
+  .footer_first_tablet {
+    display: block;
+    padding: 0;
+    width: 341px;
+    text-align: start;
+  }
+  .footer_logo_block {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .footer_img {
+    width: 39px;
+    height: 45px;
+  }
+  .footer_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 16px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer_apple_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 16px;
+  }
+  .footer_last_block {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer_call {
+    display: none;
+  }
+  .footer_call_tablet {
+    display: block;
+  }
+  .footer_last_block_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 33px;
+  }
+  .footer_phone_num {
+    margin-bottom: 20px;
+  }
+  .footer_media_list {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .footer_location_block {
+    margin-bottom: 32px;
+  }
+  .footer {
+    padding-top: 32px;
+  }
+  .footer_cotegory_link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 8px;
+  }
+  .footer_cotegory {
+    padding: 8px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer_cotegory {
+    display: none;
+  }
+  .footer_first_block {
+    display: block;
+  }
+  .footer_logo_block {
+    display: block;
+  }
+  .footer_img {
+    margin-bottom: 27px;
+  }
+  .first_block_text {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .first_block_sec_text {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .footer_first_tablet {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--03);
+    width: 273px;
+  }
+  .footer_list {
+    display: block;
+  }
+  .footer_item {
+    margin-bottom: 16px;
+  }
+  .footer_apple_list {
+    display: block;
+  }
+  .footer_apple_item {
+    margin-bottom: 16px;
+  }
+  .footer_last_block_flex {
+    display: block;
+  }
+  .footer_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer_consulting {
+    display: none;
+  }
+  .consulting_desktop {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .footer_phone_num {
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 11px;
+  }
+  .footer_media_list {
+    display: none;
+  }
+  .media_desktop_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .media_desktop-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 24px;
+  }
+  .footer_call {
+    margin-bottom: 0;
+  }
+  .media_desktop_list {
+    margin-bottom: 0;
+  }
+  .footer {
+    padding-top: 51px;
+    padding-bottom: 41px;
+  }
 }/*# sourceMappingURL=style.css.map */
