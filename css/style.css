@@ -1652,6 +1652,10 @@ body {
   border: none;
 }
 
+.follow_btn_text {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .follow_img_block::before {
     content: "";
@@ -1731,6 +1735,12 @@ body {
     font-size: 20px;
     color: #fff;
     margin-bottom: 16px;
+  }
+  .follow_btn_text {
+    display: block;
+  }
+  .follow_span {
+    display: block;
   }
   .follow_form {
     padding-bottom: 32px;
