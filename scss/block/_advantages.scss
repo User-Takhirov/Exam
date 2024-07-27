@@ -1,0 +1,233 @@
+.advantages_nav {
+    padding: 24px 0;
+}
+
+.advantages_item {
+    padding: 20px;
+    background: var(--light-grey);
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
+
+.advantages_title {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--1);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.advantages_inner_title {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--1);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    &::before {
+        content: "";
+        background-image: url(../../img/advantages-for_sale.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.advantages_delivery::before {
+    content: "";
+    background-image: url(../../img/advantages_delivery.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.advantages_buy:before {
+    content: "";
+    background-image: url(../../img/advantages_pay.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.advantages_credit::before {
+    content: "";
+    background-image: url(../../img/advantages_credit.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.advantages_inner_text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--07);
+}
+
+.advantages_btn_tablet {
+    display: none;
+}
+
+.desktop_item {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .advantages_inner_title::before {
+        display: none;
+    }
+
+    .advantages_item {
+        display: flex;
+        justify-content: space-between;
+        gap: 26px;
+        align-items: center;
+    }
+
+    .advantages_item::before {
+        content: "";
+        background-image: url(../../img/advantages_credit.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: 64px;
+        height: 64px;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+    .advantages_item:nth-child(1):before{
+        background-image: url(../../img/advantages-for_sale.svg);
+    } 
+    .advantages_item:nth-child(2):before{
+        background-image: url(../../img/advantages_delivery.svg);
+    } 
+    .advantages_item:nth-child(3):before{
+        background-image: url(../../img/advantages_tablet.svg);
+    } 
+    .advantages_item:nth-child(5):before{
+        background-image: url(../../img/advantages_guarantee.svg);
+    } 
+    .advantages_inner_title {
+        font-weight: 700;
+        font-size: 24px;
+        color: var(--1);
+    }
+
+    .advantages_inner_text {
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--07);
+    }
+
+    .advantages_btn_tablet {
+        display: block;
+        font-weight: 500;
+        font-size: 18px;
+        color: var(--prime);
+        padding: 16px 60px;
+        border: 2px solid var(--prime);
+        color: var(--prime);
+        text-align: center;
+        border-radius: 8px;
+        width: 212px;
+        height: 56px;
+    }
+
+    .advantages_item {
+        padding: 24px 71px 24px 24px;
+    }
+
+    .advantages_title {
+        font-weight: 700;
+        font-size: 32px;
+        color: var(--1);
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .advantages{
+        padding: 40px 0;
+    }
+    .advantages_list {
+        display: flex;
+        // justify-content: center;
+        gap: 15px;
+    }
+
+    .advantages_inner_title {
+        text-align: center;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .advantages_inner_text {
+        margin-bottom: 99px;
+        font-weight: 400;
+        font-size: 16px;
+        width: 212px;
+    }
+
+    .advantages_item {
+        display: block;
+        text-align: center;
+        padding: 24px 8px 32px;
+    }
+
+    .advantages_btn_tablet {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .advantages_item::before {
+        width: 160px;
+        height: 160px;
+    }
+
+    .advantages_item:nth-child(5):before {
+        background-image: url(../img/advantages_guarantee.svg);
+    }
+
+    .advantages_item:nth-child(3):before {
+        background-image: url(../img/advantages_pay.svg);
+    }
+
+    .advantages_item:nth-child(2):before {
+        background-image: url(../img/advantages_delivery.svg);
+    }
+
+    .advantages_item:nth-child(1):before {
+        background-image: url(../img/advantages-for_sale.svg);
+    }
+
+    .advantages_item:nth-child(4) {
+        background: linear-gradient(180deg, #ffe685 0%, #f6f6f6 100%);
+    }
+
+    .advantages_item:nth-child(3) {
+        background: linear-gradient(180deg, #7de9ff 0%, #f2f2f2 100%);
+    }
+
+    .advantages_item:nth-child(2) {
+        background: linear-gradient(180deg, #e685ff 0%, #f2f2f2 100%);
+    }
+
+    .advantages_item:nth-child(1) {
+        background: linear-gradient(180deg, #fe94a6 0%, #f2f2f2 100%);
+    }
+
+    .desktop_item {
+        display: block;
+        background: linear-gradient(180deg, #adffc1 0%, #f2f2f2 100%);
+    }
+    .advantages_sec{
+        margin-bottom: 32px;
+    }
+    .advantages_third{
+        margin-bottom: 90px;
+    }
+}

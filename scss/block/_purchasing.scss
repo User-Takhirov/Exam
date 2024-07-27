@@ -285,9 +285,12 @@
         gap: 8px;
         margin-bottom: 8px;
 
-        &:hover {
+        &:hover{
             background-color: #6fd91c;
-
+        }
+        &:hover::before{
+            background-image: url(../../img/tick_store.svg);
+            background-repeat: no-repeat;
         }
     }
 
