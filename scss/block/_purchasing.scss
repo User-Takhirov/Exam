@@ -114,7 +114,7 @@
     font-weight: 500;
     font-size: 20px;
     color: #fff;
-    padding: 8px ;
+    padding: 8px;
     background: var(--prime);
     border-radius: 8px;
     border: none;
@@ -127,7 +127,8 @@
     &:hover {
         background-color: #52d116;
     }
-    &:hover::after{
+
+    &:hover::after {
         background-image: url(../../img/tick_store.svg);
         background-repeat: no-repeat;
     }
@@ -183,13 +184,16 @@
     font-size: 32px;
     color: var(--1);
 }
-.purchasing_inner_btn_desktop{
+
+.purchasing_inner_btn_desktop {
     display: none;
     cursor: pointer;
 }
-.previous_price{
+
+.previous_price {
     display: flex;
 }
+
 .purchasing_btn_block {
     display: flex;
     justify-content: space-between;
@@ -202,6 +206,12 @@
         display: block;
     }
 
+    .purchasing_title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 40px;
+        color: var(--1);
+    }
 
     .purchasing_inner_btn {
         padding: 8px 10px;
@@ -221,7 +231,7 @@
 @media screen and (min-width:1200px) {
     .purchasing_inner_btn {
         width: 100%;
-     
+
     }
 
     .previous_price {
@@ -290,10 +300,11 @@
         gap: 8px;
         margin-bottom: 8px;
 
-        &:hover{
+        &:hover {
             background-color: #6fd91c;
         }
-        &:hover::before{
+
+        &:hover::before {
             background-image: url(../../img/tick_store.svg);
             background-repeat: no-repeat;
         }
@@ -310,5 +321,12 @@
     .purchasing_cheaper {
         font-weight: 500;
         font-size: 16px;
+    }
+
+    .purchasing_title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 48px;
+        color: var(--1);
     }
 }

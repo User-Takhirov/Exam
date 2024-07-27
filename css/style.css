@@ -1061,6 +1061,12 @@ body {
   .previous_price {
     display: block;
   }
+  .purchasing_title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 40px;
+    color: var(--1);
+  }
   .purchasing_inner_btn {
     padding: 8px 10px;
     width: 140px;
@@ -1160,6 +1166,12 @@ body {
   .purchasing_cheaper {
     font-weight: 500;
     font-size: 16px;
+  }
+  .purchasing_title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 48px;
+    color: var(--1);
   }
 }
 .iphone_types {
